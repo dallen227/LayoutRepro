@@ -1,4 +1,89 @@
 /* Add screen styles below */
-a.active {
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f6f6ef;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff6600;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
     font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .footer-nav a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer .footer-nav a:hover {
+    text-decoration: underline;
 }
